@@ -3,7 +3,7 @@ import axios from "axios";
 
 
 export default function Home() {
-  const apiKey = "e188ecb75d23a641b26b9feeb3ffaecc";
+  const apiKey = "private"
   const [data, setData] = useState(null); // Declare data using useState
   const [city, setCity] = useState(""); // State for city
   const [fahrenheit, setFahrenheit] = useState<string | null>(null); // State for Fahrenheit temperature
